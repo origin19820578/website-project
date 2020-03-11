@@ -1,0 +1,47 @@
+body {
+    background-color: red;
+    background-image: url("websiteimages/background.gif");
+    background-size: cover;
+
+}
+
+* { 
+    font-style: italic
+}
+
+title,body, h1, h2, h3, h4, p{
+    color: white;
+}
+* {font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding:20px,25px,25px,50px;
+}
+
+#gdprImg 
+{
+    width: 40%;
+}
+#xcodeImg 
+{
+    width: 30%;
+}   
+
+#brainImg 
+{
+    width:30%;
+}
+#vscImg
+{
+    width:30%;
+}
+
+#head {
+    display:flex;
+    justify-content:center;
+}
+
+
+
