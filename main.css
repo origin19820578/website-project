@@ -1,0 +1,75 @@
+body {
+    background-color: red;
+    background-image: url("websiteimages/background.gif");
+    background-size: cover;
+
+}
+
+* { 
+    font-style: italic
+}
+
+title,body, h1, h2, h3, h4, p{
+    color: white;
+}
+* {font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding:20px,20px,20px;
+}
+
+#gdprImg 
+{
+    width: 30%;
+}
+#xcodeImg 
+{
+    width: 20%;
+}   
+
+#brainImg 
+{
+    width:30%;
+}
+#vscImg
+{
+    width:20%;
+}
+
+#head {
+    display:flex;
+    justify-content:center;
+}
+
+#msh {
+    display:flex;
+    justify-content:right;
+    width:25%;
+}   
+
+#goonline {
+    display:flex;
+    justify-content:right;
+    width:20%;
+}
+
+#trellologo {
+    display:flex;
+    justify-content:space-evenly;
+    width:20%;
+}
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.titleitem {
+  align-self: center;
+  font-size:50px;
+}
