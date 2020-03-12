@@ -17,16 +17,16 @@ title,body, h1, h2, h3, h4, p{
 
 * {
     box-sizing: border-box;
-    padding:20px,25px,25px,50px;
+    padding:20px,20px,20px;
 }
 
 #gdprImg 
 {
-    width: 40%;
+    width: 30%;
 }
 #xcodeImg 
 {
-    width: 30%;
+    width: 20%;
 }   
 
 #brainImg 
@@ -35,7 +35,7 @@ title,body, h1, h2, h3, h4, p{
 }
 #vscImg
 {
-    width:30%;
+    width:20%;
 }
 
 #head {
@@ -43,5 +43,33 @@ title,body, h1, h2, h3, h4, p{
     justify-content:center;
 }
 
+#msh {
+    display:flex;
+    justify-content:right;
+    width:25%;
+}   
 
+#goonline {
+    display:flex;
+    justify-content:right;
+    width:20%;
+}
 
+#trellologo {
+    display:flex;
+    justify-content:space-evenly;
+    width:20%;
+}
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.titleitem {
+  align-self: center;
+  font-size:50px;
+}
